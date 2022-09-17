@@ -7,7 +7,7 @@ description = "test-package"
 homepage = "example.com"
 documentation = "example.com"
 repository = "example.com"
-readme = "example.com"
+readme = "readme.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
