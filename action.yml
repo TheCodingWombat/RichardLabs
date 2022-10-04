@@ -1,4 +1,5 @@
 name: SubstraceTest
+description: Substrace test action
 
 on:
   push:
