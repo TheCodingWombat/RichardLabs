@@ -20,5 +20,7 @@ jobs:
       run: |
         cd richard-test
         cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
+    - name: Install my crate
+      run: |
+        cd richard-test
+        cargo install richard-test
