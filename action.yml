@@ -13,8 +13,10 @@ runs:
     run: |
       cd richard-test
       cargo build --verbose
-  - name: Install my crate
+    shell: bash
+  - name: Install and run my crate
     run: |
       cd richard-test
       cargo install richard-test
       richard-test
+    shell: bash
