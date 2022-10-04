@@ -9,14 +9,8 @@ runs:
 
   steps:
   - uses: actions/checkout@v3
-  - name: Build
-    run: |
-      cd richard-test
-      cargo build --verbose
-    shell: bash
   - name: Install and run my crate
     run: |
-      cd richard-test
       cargo install richard-test
       richard-test
     shell: bash
