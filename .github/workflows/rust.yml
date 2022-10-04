@@ -24,3 +24,4 @@ jobs:
       run: |
         cd richard-test
         cargo install richard-test
+        richard-test
