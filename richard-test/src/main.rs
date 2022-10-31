@@ -1,3 +1,5 @@
+// #![feature(register_tool)]
+// #![register_tool(myclippy)]
 #[warn(
     clippy::disallowed_methods,
     clippy::indexing_slicing,
@@ -6,6 +8,8 @@
     clippy::panic
 )]
 mod auxiliary;
+
+pub struct Twox64Concat;
 
 fn main() {
     println!("Hello, world!");

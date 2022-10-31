@@ -1,5 +1,4 @@
 // aux-build:frame-support.rs
-
 #![warn(
     clippy::disallowed_methods,
     clippy::indexing_slicing,
@@ -7,6 +6,7 @@
     clippy::unwrap_used,
     clippy::panic
 )]
+
 
 use crate::auxiliary::frame_support::{
     storage::{IterableStorageDoubleMap, IterableStorageMap, StorageDoubleMap, StorageMap as Bar},
